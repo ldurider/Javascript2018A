@@ -61,3 +61,12 @@ interface Usuario2 {
 }
 
 let usuarioCuatro: Usuario2;
+
+class UsuarioTres {
+    constructor(public mNombre: String,
+                private mEdad: Number,
+                protected mCedula: String){
+
+}
+
+}
