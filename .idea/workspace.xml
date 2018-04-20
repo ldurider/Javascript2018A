@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bcc47f6-6d13-4f6d-a308-4d99a5d20ce6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Tareas/Ejercicio1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tareas/Ejercicio2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tareas/Ejercicio3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/typescript-compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02.Typescript/01.TiposVariables.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -32,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/Tareas/Ejercicio1.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -41,16 +40,28 @@
         <entry file="file://$PROJECT_DIR$/Tareas/Ejercicio2.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="765">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ejercicio3.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ejercicio3.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tareas/Ejercicio3.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01.TiposVariables.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/02.Typescript/01.TiposVariables.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="n#Usuario#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,6 +72,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -74,6 +86,7 @@
         <option value="$PROJECT_DIR$/Tareas/Ejercicio1.js" />
         <option value="$PROJECT_DIR$/Tareas/Ejercicio2.js" />
         <option value="$PROJECT_DIR$/Tareas/Ejercicio3.js" />
+        <option value="$PROJECT_DIR$/02.Typescript/01.TiposVariables.ts" />
       </list>
     </option>
   </component>
@@ -112,6 +125,11 @@
             <path>
               <item name="Javascript2018A" type="b2602c69:ProjectViewProjectNode" />
               <item name="Javascript2018A" type="462c0819:PsiDirectoryNode" />
+              <item name="02.Typescript" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Javascript2018A" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Javascript2018A" type="462c0819:PsiDirectoryNode" />
               <item name="Tareas" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -128,6 +146,7 @@
     <property name="node.js.path.for.package.prettier" value="project" />
     <property name="node.js.selected.package.prettier" value="" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -153,17 +172,18 @@
       <updated>1523996135110</updated>
       <workItem from="1523996138820" duration="1076000" />
       <workItem from="1523997416632" duration="2232000" />
-      <workItem from="1524238733048" duration="7886000" />
+      <workItem from="1524238733048" duration="13119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11194000" />
+    <option name="totallyTimeSpent" value="16427000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24304539" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -185,6 +205,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/02.Typescript/01.TiposVariables.js" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -214,21 +239,31 @@
     <entry file="file://$PROJECT_DIR$/Tareas/Ejercicio1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tareas/Ejercicio2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tareas/Ejercicio3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02.Typescript/01.TiposVariables.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="n#Usuario#0" />
+          </folding>
         </state>
       </provider>
     </entry>
