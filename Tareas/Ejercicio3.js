@@ -1,4 +1,5 @@
 //Ejercicio 3
+// Autor: Luis Daniel Unapanta
 
 var numeroMeses= 8;
 var totalOsos= 2;

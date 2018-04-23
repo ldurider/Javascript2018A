@@ -1,4 +1,5 @@
 //Ejercicio 2
+// Autor: Luis Daniel Unapanta
 
 var generadoresPrendidos= 'pares' // 'impares' 'todos'
 

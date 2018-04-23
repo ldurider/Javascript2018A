@@ -1,4 +1,5 @@
 // Ejercicio 1
+// Autor: Luis Daniel Unapanta
 
 function validarNumeroDeStringsEnArreglo(arreglo) {
     numeroString=0;
