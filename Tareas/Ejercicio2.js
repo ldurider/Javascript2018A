@@ -1,15 +1,14 @@
 //Ejercicio 2
 // Autor: Luis Daniel Unapanta
 
-var generadoresPrendidos= 'pares' // 'impares' 'todos'
+var generadoresPrendidos= 'todos' // 'impares' 'todos'
+var aux=1;
+var totalPotencia=0;
 
 var arregloGeneradores=[
     {nombre: 'Generador', potencia: 62, cantidad: 4},
     {nombre: 'Generador', potencia: 124, cantidad: 15}
 ];
-
-var aux=1;
-var totalPotencia=0;
 
 function esPar(numero){
     if(numero%2 ==1){
