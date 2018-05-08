@@ -37,7 +37,10 @@ var usuarioCincoAniosMenos = arregloUsuarios.map(function (usuario) {
     return usuario;
 }).filter(function (usuario) {
     //TRUE se devuelve
-    return (usuario.deuda < 100);
+    return (usuario.deuda < 100 && usuario.edad > 18);
+}).every(//AND   //.some ( //OR
+function (usuario) {
+    return (usuario.edad > 18);
 });
 console.log(usuarioCincoAniosMenos);
 function calculoDeudaUsuario(edad) {
@@ -45,4 +48,3 @@ function calculoDeudaUsuario(edad) {
         return totalAcumulado + ((edad / 100) * deuda);
     }, 0);
 }
-//filter

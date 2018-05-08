@@ -68,8 +68,12 @@ let usuarioCincoAniosMenos = arregloUsuarios.map(
 
 ).filter((usuario :UsuarioArreglo)=>{
     //TRUE se devuelve
-    return(usuario.deuda<100)
-});
+    return(usuario.deuda<100 && usuario.edad>18)
+}).every( //AND   //.some ( //OR
+    (usuario: UsuarioArreglo) => {
+        return(usuario.edad>18)
+    }
+);
 
 console.log(usuarioCincoAniosMenos);
 
@@ -80,5 +84,4 @@ function calculoDeudaUsuario(edad) {
 
 }
 
-//filter
 
