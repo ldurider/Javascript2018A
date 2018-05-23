@@ -2,8 +2,12 @@
 
   <!--<img [src]="urlImagen">-->
 
-  <p [class]="'sa-fondo-estado '+ claseEstreno">{{textoEstreno}}</p>
+  <p (click)="hizoClickEnEstado()" [class]="'sa-fondo-estado '+ claseEstreno">{{textoEstreno}}</p>
   <h1>{{tituloPelicula}}</h1>
   <p >{{descripcionPelicula}}</p>
 
 </div>
+
+<app-pelicula-boton></app-pelicula-boton>
+
+

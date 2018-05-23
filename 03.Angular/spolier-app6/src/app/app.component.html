@@ -1,9 +1,89 @@
-<app-pelicula-banner>
+<!--<app-pelicula-banner>-->
 
-</app-pelicula-banner>
+<!--</app-pelicula-banner>-->
 
 
 
+
+<div class="row ">
+  <div class="col-sm-6"></div>
+  <div class="col-sm-5" align="right"><app-enlace> </app-enlace></div>
+
+</div>
+
+<div class="row ">
+  <div class="col-sm-6 text-center" *ngFor="let pelicula of arregloPeliculas">
+    <!--<img [src]="pelicula.urlImagen" [alt]="pelicula.nombre">-->
+    <app-pelicula-banner
+      [urlImagen]="pelicula.urlImagen"
+      [descripcionPelicula]="pelicula.descripcion"
+      [tituloPelicula]="pelicula.nombre"
+      [esEstreno]="pelicula.esEstreno"
+      (dioClickEstado)="alert($event)"
+
+    ></app-pelicula-banner>
+
+    <button (click)="pelicula.esEstreno=!pelicula.esEstreno">Cambiar Estreno</button>
+  </div>
+
+
+
+  <div class="col-sm-6">
+    <h1 *ngIf="mostrarHola" >Hola</h1>
+    <!--<button (click)="mostrarHola =!mostrarHola">Cambiar </button>-->
+
+  </div>
+  <div class="col-sm-6">
+    <h1 *ngIf="!mostrarHola" >Mundo</h1>
+  </div>
+  <div class="col-sm-3"></div>
+  <div class="col-sm-3"></div>
+  <div class="col-sm-3"></div>
+  <div class="col-sm-3"></div>
+
+</div>
+
+
+
+<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
+  <ngb-panel title="Simple">
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel>
+    <ng-template ngbPanelTitle>
+      <span>&#9733; <b>Fancy</b> title &#9733;</span>
+    </ng-template>
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel title="Disabled" [disabled]="true">
+    <ng-template ngbPanelContent>
+      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia
+      aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+      sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+      craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings
+      occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+      labore sustainable VHS.
+    </ng-template>
+  </ngb-panel>
+  <p-button label="Click" ></p-button>
+</ngb-accordion>
+<button pButton type="button" label="Click" class="ui-button-danger"></button>
+<p-button label="Click"></p-button>
+<button mat-button color="accent"> clic</button>
 
 
 <!--<h2 [class]="clase">Two way data binding</h2>-->

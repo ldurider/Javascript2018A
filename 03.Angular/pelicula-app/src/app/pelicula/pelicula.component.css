@@ -1,0 +1,35 @@
+.sa-fondo-pelicula-banner {
+  background-color: #000;
+  border-style: solid;
+  border-color: #000;
+  border-width: 9px;
+  background: url(http://desarrollofrontend.com/wp-content/uploads/2014/11/img_default.png)  center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  width: 100% ;
+
+}
+
+.sa-color-letras-pelicula-banner {
+  color: #fff
+}
+
+.sa-fondo-estado {
+  max-width: 120px;
+  text-align: center;
+}
+
+.sa-color-estado-amarillo {
+  background-color: #fabb00;
+}
+
+.sa-color-estado-rosado {
+  background-color: #e3003e;
+}
+
+.sa-espaciado {
+  height: 250px;
+}

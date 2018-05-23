@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "spolier-app6": {
+    "pelicula-app": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/spolier-app6",
+            "outputPath": "dist/pelicula-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -23,9 +23,6 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/font-awesome/css/font-awesome.min.css",
-              "./node_modules/primeng/resources/themes/omega/theme.css",
-              "./node_modules/primeng/resources/primeng.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -53,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "spolier-app6:build"
+            "browserTarget": "pelicula-app:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "spolier-app6:build:production"
+              "browserTarget": "pelicula-app:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "spolier-app6:build"
+            "browserTarget": "pelicula-app:build"
           }
         },
         "test": {
@@ -98,7 +95,7 @@
         }
       }
     },
-    "spolier-app6-e2e": {
+    "pelicula-app-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -106,7 +103,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "spolier-app6:serve"
+            "devServerTarget": "pelicula-app:serve"
           }
         },
         "lint": {
@@ -121,5 +118,5 @@
       }
     }
   },
-  "defaultProject": "spolier-app6"
+  "defaultProject": "pelicula-app"
 }

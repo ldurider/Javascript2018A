@@ -1,0 +1,37 @@
+<div style="background-color: #222222">
+<div class="col-sm-12 text-center">
+
+  <app-menu
+  [arrayMenu]="arrayMenu">
+  </app-menu>
+</div>
+
+<div class="row">
+  <div class="col-sm-6" style="height: 370px"  *ngFor="let pelicula of arrayPeliculas">
+    <app-pelicula
+      [descripcionPelicula]="pelicula.descripcion"
+      [nombrePelicula]="pelicula.titulo"
+      [esEstreno]="pelicula.esEstreno"
+      [urlImagen]="pelicula.urlImagen"
+    ></app-pelicula>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3" style="height: 180px" *ngFor="let pelicula of arrayPeliculasDos">
+      <app-pelicula
+        [descripcionPelicula]="pelicula.descripcion"
+        [nombrePelicula]="pelicula.titulo"
+        [esEstreno]="pelicula.esEstreno"
+        [urlImagen]="pelicula.urlImagen"
+      ></app-pelicula>
+    </div>
+
+</div>
+</div>
+
+  <div *ngFor="let peli of arrayCarrusel">
+    <app-carrusel-peliculas
+    [titulo]="peli.titulo"
+    [imagenes]="peli.imagenes"
+    ></app-carrusel-peliculas>
+  </div>

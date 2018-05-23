@@ -1,7 +1,9 @@
 .sa-fondo-pelicula-banner{
   background-color: black;
-  width: 300px;
-  height: 500px;
+  width: 500px;
+  height: 100%;
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 
 .sa-color-letras-pelicula-banner{

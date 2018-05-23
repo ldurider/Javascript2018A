@@ -1,0 +1,31 @@
+<nav class="navbar navbar-inverse row">
+  <div class="container-fluid ">
+    <div class="navbar-header col-sm-6">
+      <img class="pa-icono-principal " align="left" src="https://www.pelispedia.tv/cdn/img/logo.png" href="#"/>
+    </div>
+
+
+    <ul class="nav navbar-nav navbar-center " *ngFor="let nombreMenu of arrayMenu">
+      <li ><a href="#">{{nombreMenu.nombre}}</a></li>
+      <!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>-->
+    </ul>
+
+
+    <form class="navbar-form col-sm-3 navbar-right" action="/action_page.php">
+      <div class="input-group" >
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</nav>

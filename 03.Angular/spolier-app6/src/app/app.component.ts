@@ -8,7 +8,30 @@ import {Component} from '@angular/core';
 
 export class AppComponent {
 
+  mostrarHola= true;
+  arregloNumero=[1,2,3,4,5];
 
+  arregloPeliculas=[
+  {
+    nombre:'Tomb Raider',
+    descripcion: 'Peliculon',
+    esEstreno: false,
+    urlImagen: 'http://hallyunation.com/wp-content/uploads/2018/04/readyOne-1-500x300.jpg',
+  },
+
+    {
+      nombre:'Ready Play One',
+      descripcion: 'Peliculon',
+      esEstreno: true,
+      urlImagen: 'http://hallyunation.com/wp-content/uploads/2018/04/readyOne-1-500x300.jpg',
+    },
+
+  ];
+
+  alert(evento){
+    console.log(evento);
+    alert('Dio click en es estreno');
+  }
 
 
 

@@ -1,31 +1,55 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-pelicula-banner',
   templateUrl: './pelicula-banner.component.html',
   styleUrls: ['./pelicula-banner.component.css']
 })
-export class PeliculaBannerComponent implements OnInit {
+export class PeliculaBannerComponent implements OnInit, OnChanges {
 
-  urlImagen='https://hipertextual.com/files/2018/03/tomb_raider_roar_uthaug-1000x667.jpg';
-  estado='proximamente';
-  tituloPelicula='Tomb Rider';
-  descripcionPelicula='Alicia Vikander';
-  esEstreno=true;
+  @Input() urlImagen:string;
+  @Input() tituloPelicula:string;
+  @Input()descripcionPelicula:string;
+  @Input()esEstreno:boolean;
+
+  @Output() dioClickEstado:EventEmitter<boolean> = new EventEmitter();
+
+
   textoEstreno:string;
   claseEstreno:string;
 
-  constructor() { }
+  constructor() {
+    //variables undefined
+  }
 
   ngOnInit() {
-    if(this.esEstreno){
-      this.textoEstreno='Estreno';
-      this.claseEstreno='sa-color-estado-rosado';
-    }else{
-      this.textoEstreno='Proximamente';
-      this.claseEstreno='sa-color-estado-amarillo';
-    }
+    console.log("INICIO Y SETEO COLOR", this.tituloPelicula);
+    this.setearColor()
 
   }
 
+  ngOnChanges(propiedadesActualizadas) {
+    console.log('Algo', propiedadesActualizadas);
+    if (propiedadesActualizadas.esEstreno) {
+      this.setearColor();
+    }
+  }
+
+  setearColor(){
+
+      if(this.esEstreno){
+        this.textoEstreno='Estreno';
+        this.claseEstreno='sa-color-estado-rosado';
+      }else{
+        this.textoEstreno='Proximamente';
+        this.claseEstreno='sa-color-estado-amarillo';
+      }
+  }
+
+  hizoClickEnEstado(){
+    this.dioClickEstado.emit(true);
+  }
+
+
 }
+
