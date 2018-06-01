@@ -1,0 +1,44 @@
+<div class="jumbotron">
+<form #datosForm="ngForm" (ngSubmit)="mostrarInformacion($event, datosForm)">
+  <fieldset>
+    <legend class="text-center">
+      <h3>¡BLACK CAT NIGHTTIME TE ESPERA!</h3>
+    </legend>
+
+    <div class="row">
+
+      <div class=" form-group text-center col-sm-12 ">
+        <img class="img-fluid" style="width: 30%" src="https://www.logocrea.com/2/wp-content/uploads/2016/07/gato1.png" alt="">
+      </div>
+
+
+
+
+    <div class=" col-sm-12 form-group">
+      <!--<label for="exampleInputEmail1">Correo Electrónico:</label>-->
+      <input type="text" class="form-control" id="user" aria-describedby="emailHelp" placeholder="Correo Electrónico" name="user" [(ngModel)]="user1">
+      <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tu correo electrónico con nadie.</small>
+      <h2>{{user}}</h2>
+    </div>
+    <div class="col-sm-12 form-group">
+      <!--<label for="exampleInputPassword1">Contraseña:</label>-->
+      <input type="password" class="form-control" id="password" placeholder="Contraseña" name="password" [(ngModel)]="password1">
+    </div>
+
+      <div class="col-sm-12 text-center form-group">
+    <button type="submit" class="btn btn-primary btn-lg">Ingresa</button>
+
+    </div>
+      <div class="col-sm-12 text-center form-group">
+        <button type="submit" class="btn btn-secondary" >¿Has olvidado tu contraseña?</button>
+
+      </div>
+    </div>
+  </fieldset>
+</form>
+  <hr class="my-4">
+<h3 >Usuario: {{userOutput}}</h3>
+  <h3 >Password: {{passwordOutput}}</h3>
+
+
+</div>
