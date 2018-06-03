@@ -2,8 +2,241 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bcc47f6-6d13-4f6d-a308-4d99a5d20ce6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/blackcat-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/03.Angular/blackcat-app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/blackcat-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/03.Angular/blackcat-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/alert.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/button.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/carousel.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/collapse.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/dropdown.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/index.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/modal.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/popover.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/scrollspy.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/tab.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/tooltip.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/dist/util.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/alert.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/button.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/modal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/popover.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/scrollspy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/tab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/js/src/util.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootstrap/scss/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/.github/stale.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/bootswatch.gemspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cerulean/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cerulean/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cerulean/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cerulean/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cosmo/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cosmo/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cosmo/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cosmo/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cyborg/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cyborg/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cyborg/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/cyborg/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/darkly/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/darkly/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/darkly/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/darkly/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/flatly/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/flatly/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/flatly/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/flatly/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/journal/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/journal/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/journal/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/journal/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/litera/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/litera/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/litera/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/litera/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lumen/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lumen/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lumen/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lumen/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lux/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lux/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lux/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/lux/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/materia/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/materia/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/materia/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/materia/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/minty/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/minty/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/minty/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/minty/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/pulse/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/pulse/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/pulse/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/pulse/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sandstone/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sandstone/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sandstone/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sandstone/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/simplex/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/simplex/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/simplex/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/simplex/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sketchy/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sketchy/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sketchy/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/sketchy/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/slate/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/slate/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/slate/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/slate/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/solar/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/solar/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/solar/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/solar/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/spacelab/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/spacelab/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/spacelab/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/spacelab/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/superhero/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/superhero/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/superhero/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/superhero/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/united/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/united/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/united/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/united/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/yeti/_bootswatch.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/yeti/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/yeti/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/dist/yeti/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03.Angular/node_modules/bootswatch/package.json" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,10 +264,10 @@
       <file leaf-file-name="login.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,8 +276,8 @@
       <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -52,8 +285,8 @@
       <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/03.Angular/spolier-app6/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="238">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
                 <element signature="e#240#277#0" expanded="true" />
@@ -165,22 +398,7 @@
               <item name="Javascript2018A" type="b2602c69:ProjectViewProjectNode" />
               <item name="Javascript2018A" type="462c0819:PsiDirectoryNode" />
               <item name="03.Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="spolier-app6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javascript2018A" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javascript2018A" type="462c0819:PsiDirectoryNode" />
-              <item name="03.Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="spolier-app6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Javascript2018A" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Javascript2018A" type="462c0819:PsiDirectoryNode" />
-              <item name="03.Angular" type="462c0819:PsiDirectoryNode" />
-              <item name="spolier-app6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="blackcat-app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,26 +444,26 @@
       <workItem from="1526072698518" duration="7147000" />
       <workItem from="1526411501966" duration="6840000" />
       <workItem from="1526674866210" duration="40109000" />
-      <workItem from="1527739273573" duration="19253000" />
+      <workItem from="1527739273573" duration="20910000" />
+      <workItem from="1527889892930" duration="116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106622000" />
+    <option name="totallyTimeSpent" value="108395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29868227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2979502" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5014641" side_tool="true" weight="0.32440946" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49853587" visible="true" weight="0.27086616" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49853587" visible="true" weight="0.27086616" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -469,9 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,13 +710,7 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/03.Angular/blackcat-app/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/social-login/social-login.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
@@ -513,10 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="62" selection-start-column="62" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -528,13 +733,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#73#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Desktop/social-login/social-login.component.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03.Angular/spolier-app6/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        <state relative-caret-position="238">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
           <folding>
             <element signature="e#0#58#0" expanded="true" />
             <element signature="e#240#277#0" expanded="true" />
@@ -592,17 +788,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/03.Angular/blackcat-app/src/app/login/login.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#fieldset#0;n#form#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
